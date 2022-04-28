@@ -1,17 +1,17 @@
-body
-{                               /*------------FOND------------*/
-    background-image:url("IMAGE/fond\ fish.png"); ;
+body {
+    /*------------FOND------------*/
+    background-image: url("IMAGE/fond\ fish.png");
+    ;
     margin: 0;
-	color: #424953;
-	line-height: 1.8;
-	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 1em;
+    color: #424953;
+    line-height: 1.8;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
 }
 
-                                /*------------HEADER----------*/
+/*------------HEADER----------*/
 
-header
-{
+header {
     background-color: #25B3B4;
     border-top: 5px solid #1B9CA2;
     border-bottom: 5px solid #1B9CA2;
@@ -25,25 +25,149 @@ nav a {
     color: white;
     padding: 12px;
     font-size: 1.5rem;
-    font-family: 'Slabo 27px' ;
+    font-family: 'Slabo 27px';
     text-decoration: none;
 }
-                            /*------------Presentation----------*/
-section h1
-{
+
+/*------------Presentation----------*/
+section h1 {
     text-align: center;
     font-size: 2.5rem;
 }
-section p
-{
-    margin:10px;
+
+section p {
+    margin: 10px;
     text-align: center;
 }
-h1, h2, h3
-{
+
+h1,
+h2,
+h3 {
     font-family: "Slabo 27px";
-    font-weight:normal;
+    font-weight: normal;
 }
-span{
+
+span {
     color: #1b9ca2;
+}
+
+.ARTICLE {
+    width: 47%;
+    background-color: #B6DFDD;
+    vertical-align: top;
+    margin-left: 350px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.ARTICLE h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.ARTICLE h3 {
+    font-size: 2em;
+    margin-left: 70px;
+}
+
+.fa-solid {
+    color: #1b9ca2;
+}
+
+.ARTICLE img {
+    border-radius: 50%;
+    margin-left: 40px;
+    display: flex;
+}
+
+.TEXTE1 {
+    width: 20%;
+    margin-left: 135px;
+    margin-top: -125px;
+    padding: 10px;
+}
+
+.TEXTE2 {
+    width: 30%;
+    margin-left: 50px;
+    padding: 10;
+
+}
+
+.TEXTE3 {
+    width: 35%;
+    margin-left: 30px;
+    padding: 10;
+
+}
+
+.TEXTE4 {
+    width: 35%;
+    margin-left: 30px;
+    padding: 10;
+
+}
+
+.TEXTE5 {
+    width: 35%;
+    margin-left: 150px;
+    margin-top: -125px;
+    padding: 10px;
+}
+
+.TEXTE6 {
+    width: 55%;
+    margin-left: 50px;
+    padding: 10;
+}
+
+.TEXTE7 {
+    width: 65%;
+    margin-left: 35px;
+    padding: 10;
+}
+
+.TEXTE8 {
+    width: 65%;
+    margin-left: 35px;
+    padding: 10
+}
+
+
+
+.Bouton {
+    font-family: "Slabo 27px";
+    font-size: 1.5em;
+    color: white;
+    background-color: #1B9CA2;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-left: 250px;
+    border-top: 5px solid #14787e;
+    border-bottom: 5px solid #14787e;
+    border-left: 5px solid #14787e;
+    border-right: 5px solid #14787e;
+
+}
+
+.MultiFish {
+    margin-left: 400px;
+    margin-top: -923px;
+}
+
+.Aside-Tout {
+    margin-left: 1300px;
+    width: 300px;
+    background-color: #25B3B4;
+    border: 5px
+}
+
+#vignette {
+    margin-left: 220px;
+    margin-top: 100px;
+    display: flex;
+}
+
+aside h2 {
+    font-size: 1.6em;
 }
